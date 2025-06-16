@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="containerCadastro">
+        <div class="form-imageCadastro">
+            <img src="undraw_drone_delivery_re_in95.svg" alt="Imagem ilustrativa">
+        </div>
+        <div class="formCadastro">
+            <form id="cadastroForm">
+                <div class="form-headerCadastro">
+                    <div class="titleCadastro">
+                        <h1 id="formTitleCadastro">Cadastro</h1>
+                    </div>
+                    <div class="listagem-buttonCadastro">
+                        <button type="button" id="listagemBtnCadastro">Listagem</button>
+                    </div>
+                </div>
+                <div class="input-groupCadastro">
+                    <div class="input-boxCadastro">
+                        <label for="nome_produtoCadastro">Nome do produto</label>
+                        <input id="nome_produtoCadastro" type="text" name="nome_produto" placeholder="Nome do produto" required>
+                    </div>
+                    <div class="input-boxCadastro">
+                        <label for="descricao_produtoCadastro">Descrição</label>
+                        <input id="descricao_produtoCadastro" type="text" name="descricao_produto"
+                            placeholder="Descrição do produto" required>
+                    </div>
+                    <div class="input-boxCadastro">
+                        <label for="valor_produtoCadastro">Valor</label>
+                        <input id="valor_produtoCadastro" type="number" name="valor_produto" placeholder="Valor do produto"
+                            required>
+                    </div>
+                    <div class="input-boxCadastro">
+                        <label for="disponivel_vendaCadastro">Disponível para venda</label>
+                        <select id="disponivel_vendaCadastro" name="disponivel_venda" required>
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="continue-buttonCadastro">
+                    <button type="submit" id="submitButtonCadastro">Cadastrar Produto</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="cadastro.js"></script>
+</html>

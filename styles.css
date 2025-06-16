@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #0c0ce94d;
+}
+
+.containerCadastro {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-imageCadastro {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-imageCadastro img {
+    width: 50%;
+}
+
+.formCadastro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-headerCadastro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.titleCadastro h1 {
+    position: relative;
+}
+
+.listagem-buttonCadastro button {
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.listagem-buttonCadastro button:hover {
+    background-color: #6b63fff1;
+}
+
+.form-headerCadastro h1::after {
+    content: '';
+    width: 9rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-groupCadastro {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-boxCadastro {
+    width: calc(50% - 1rem); 
+    margin-bottom: 1.1rem;
+}
+
+.input-boxCadastro label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    margin-bottom: 0.5rem;
+}
+
+.input-boxCadastro input,
+.input-boxCadastro select {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-boxCadastro input:hover,
+.input-boxCadastro select:hover {
+    background-color: #eeeeee75;
+}
+
+.input-boxCadastro input:focus-visible,
+.input-boxCadastro select:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.input-boxCadastro input::placeholder {
+    color: #000000be;
+}
+
+.continue-buttonCadastro {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.continue-buttonCadastro button {
+    width: 100%;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+.continue-buttonCadastro button:hover {
+    background-color: #6b63fff1;
+}
+
+
+
+/* Listagem */
+
+.containerListagem {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-imageListagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding:1rem;
+}
+
+.containerListagem {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-imageListagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-imageListagem img {
+    width: 50%;
+}
+
+.formListagem {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-headerListagem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.titleListagem h1 {
+    position: relative;
+}
+
+.listagem-buttonListagem button {
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.listagem-buttonListagem button:hover {
+    background-color: #6b63fff1;
+}
+
+.form-headerListagem h1::after {
+    content: '';
+    width: 9rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+thead th {
+    background-color: #6c63ff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+.bxs-trashListagem {
+    font-size: 24px; 
+    border: none; 
+}
+
+.excluir-itemListagem {
+    background-color: #FFC77E; 
+    color: white;
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    align-items: center;
+    margin-left: 1px;
+} 
+
+.excluir-itemListagem:hover {
+    background-color: #F7AB4F; 
+} 
+
+.editar-itemListagem {
+    background-color: #FFC77E; 
+    color: white; 
+    border: none;
+    padding: 5px 10px; 
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 1px;
+} 
+
+.editar-itemListagem:hover {
+    background-color: #F7AB4F; 
+}
+
+.bx-editListagem {
+    font-size: 24px; 
+    border: none; 
+}
